@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.formContactLabel {
+		@apply px-4 inline-flex items-center rounded-s-md text-sm font-bold text-black bg-gray-600;
+	}
+	.formContactInput {
+		@apply py-2 px-3 block w-full border border-gray-600 shadow-sm rounded-e-lg text-sm  bg-black text-green-600 focus:outline-green-600 focus:outline-double placeholder-gray-600;
+	}
+}
