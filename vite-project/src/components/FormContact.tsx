@@ -1,6 +1,6 @@
 export default function FormContact() {
 	return (
-		<form className="flex flex-col gap-5 w-full p-10">
+		<form className="flex flex-col gap-5 sm:gap-1 w-full p-5 h-auto">
 			{/* Name */}
 			<div className="flex rounded-lg">
 				<span className="formContactLabel">Name</span>
@@ -37,14 +37,18 @@ export default function FormContact() {
 				<input
 					type="text"
 					aria-label="topic"
-					placeholder="Suggestion"
+					placeholder="Ex: Suggestion"
 					className="formContactInput"
 				/>
 			</div>
 			{/* Description */}
 			<div className="flex rounded-lg">
 				<span className="formContactLabel">Description</span>
-				<textarea aria-label="description" className="formContactInput h-40" />
+				<textarea
+					aria-label="description"
+					className="formContactInput resize-none"
+					rows={4}
+				/>
 			</div>
 		</form>
 	);
