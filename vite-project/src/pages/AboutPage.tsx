@@ -6,11 +6,11 @@ export default function AboutPage() {
 			<img
 				src={IMAGES.employees}
 				alt="Employees working"
-				className="rounded-full h-52 w-full object-cover border-4 ring-4 ring-white ring-opacity-35 hover:ring-opacity-100 hover:ring-green-600 border-white hover:border-black border-spacing-2"
+				className="rounded-full h-52 w-full object-cover border-4 ring-4 ring-white ring-opacity-35 hover:ring-opacity-100 hover:ring-green-600 border-white hover:border-black duration-300"
 			/>
 
 			<div className="p-2 mt-4">
-				<h1 className="text-4xl text-green-600 font-bold text-center">
+				<h1 className="text-4xl text-green-600 text-center font-extrabold">
 					About us
 				</h1>
 				<div className="flex flex-col gap-2 font-semibold text-justify text-white mt-2">

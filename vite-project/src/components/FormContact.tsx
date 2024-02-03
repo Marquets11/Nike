@@ -15,7 +15,7 @@ export default function FormContact() {
 			<div className="flex rounded-lg">
 				<span className="formContactLabel">Email</span>
 				<input
-					type="text"
+					type="email"
 					aria-label="email"
 					placeholder="Ex: marcvini1105@gmail.com"
 					className="formContactInput"
